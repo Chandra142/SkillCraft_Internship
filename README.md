@@ -42,6 +42,26 @@ An unsupervised learning model that segments mall customers based on their annua
 📊 **Use Case:** Useful for targeted marketing and customer behavior analysis.
 
 ---
+3️⃣ Cat vs Dog Image Classifier (Support Vector Machine - SVM)  
+A supervised classification model that identifies whether an uploaded image is a cat or a dog — and rejects unrelated images such as elephants, humans, or giraffes.
+
+🔧 Tools & Libraries:  
+Python, OpenCV, NumPy, Scikit-learn, Matplotlib, Seaborn, Google Colab, Joblib
+
+✅ Highlights:
+- Loaded and preprocessed real-world image data  
+- Resized and flattened images to create a feature matrix  
+- Trained an SVM classifier to separate cats and dogs  
+- Added confidence-based prediction logic:
+  - ✅ Confident predictions: Cat or Dog
+  - ❌ Rejected: Anything below the confidence threshold  
+- Displayed visual results using matplotlib  
+- Exported the final model as a `.pkl` file for reuse  
+
+📊 Use Case: A lightweight image classifier that can serve as the backend for apps or web services where users upload photos of pets for classification.
+
+---
+
 
 ## 📁 Folder Structure
 
